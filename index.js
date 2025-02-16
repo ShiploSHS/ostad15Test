@@ -27,7 +27,7 @@ const initApp = () => {
          let newProduct = document.createElement('div');
          newProduct.classList.add('item');
          newProduct.innerHTML = 
-         `<a href="/detail.html?id=${product.id}">
+         `<a href="./detail.html?id=${product.id}">
              <img src="${product.image}">
          </a>
          <h2>${product.name}</h2>
